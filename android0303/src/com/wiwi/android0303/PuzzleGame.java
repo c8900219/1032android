@@ -51,6 +51,8 @@ public class PuzzleGame extends Activity {
 			if (height > mBitmap.getHeight());
 			height = mBitmap.getHeight();
 			initMaze();
+			
+			
 		}
 		private void initMaze() {
 			rnd = new Random();
