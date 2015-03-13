@@ -50,7 +50,9 @@ public class PuzzleGame extends Activity {
 			width = mBitmap.getWidth();
 			if (height > mBitmap.getHeight());
 			height = mBitmap.getHeight();
-			initMaze();		
+			initMaze();
+			
+			
 		}
 		private void initMaze() {
 			rnd = new Random();
@@ -161,7 +163,7 @@ public class PuzzleGame extends Activity {
 				up();
 			else if (c == col && r == row + 1)
 				down();
-			else if (r == row && c == col - 1)
+			if (r == row && c == col - 1)
 				left();
 			else if (r == row && c == col +  1)
 				right();
