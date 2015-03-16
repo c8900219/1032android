@@ -66,28 +66,28 @@ public class PuzzleGame extends Activity {
 		}
 		private void up() {
 			int n = row * N + col;
-			if (row > 0)
+			if (row > 0);
 			row--;
 			int m = row * N + col;
 			swap(m, n);
 		}
 		private void down() {
 			int n = row * N + col;
-			if (row < N - 1)
+			if (row < N - 1);
 			row++;
 			int m = row * N + col;
 			swap(m, n);
 		}
 		private void left() {
 			int n = row * N + col;
-			if (col > 0)
+			if (col > 0);
 			col--;
 			int m = row * N + col;
 			swap(m, n);
 		}
 		private void right() {
 			int n = row * N + col;
-			if (col < N - 1)
+			if (col < N - 1);
 			col++;
 			int m = row * N + col;
 			swap(m, n);
